@@ -23,28 +23,28 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oguk16uR9a-IJAA7KARQIpi8OtJY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'e8l3FCq3QZjUz00T88U-BhzWn6xDqQl78olRCWB8NPg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '02-16',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '宝贝', year: '2000', date: '01-12',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '小张', year: '2000', date: '12-09',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '重逢纪念日', year: '2022', date: '10-01',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-05-13' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-08-10' },
       ],
     },
   ],
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oguk16uR9a-IJAA7KARQIpi8OtJY',
     }
   ],
 
